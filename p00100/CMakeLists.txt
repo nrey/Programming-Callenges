@@ -1,0 +1,12 @@
+PROJECT(p00100)
+
+SET( p00100_HDRS
+)
+
+SET( p00100_SRCS
+	main_p00100.cpp
+)
+
+ADD_LIBRARY( p00100 main_p00100 ) #By default will add lib
+ADD_EXECUTABLE( p00100exe main_p00100 )
+# TARGET_LINK_LIBRARIES( )

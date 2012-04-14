@@ -1,0 +1,3 @@
+FILE(REMOVE_RECURSE
+  "libp00100.a"
+)

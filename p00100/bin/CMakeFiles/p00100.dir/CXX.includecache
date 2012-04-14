@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nicreyvil/aData/3_Research/3_ProgrammingChallenges/1_gitHubCode/Programming-Callenges/p00100/main_p00100.cpp
+iostream
+-
+

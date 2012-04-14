@@ -1,0 +1,2 @@
+/usr/bin/ar cr libp00100.a  CMakeFiles/p00100.dir/main_p00100.cpp.o
+/usr/bin/ranlib libp00100.a
