@@ -11,7 +11,7 @@ int main ( void )
 	unsigned int begin, end;
 	while( read( begin,end ) )
 		std::cout << begin << ' ' << end << ' ' << cycles( begin, end ) << '\n';
-	return 1;
+	return 0;
 }
 
 unsigned int step( unsigned int n )
