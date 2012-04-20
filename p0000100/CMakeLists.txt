@@ -5,8 +5,12 @@ SET( p0000100_HDRS
 
 SET( p0000100_SRCS
 	main_p0000100.cpp
+	main_p0000100_v2.cpp
 )
 
 ADD_LIBRARY( p0000100 main_p0000100 ) #By default will add lib
 ADD_EXECUTABLE( p0000100exe main_p0000100 )
+
+ADD_LIBRARY( p0000100_v2 main_p0000100_v2 ) #By default will add lib
+ADD_EXECUTABLE( p0000100_v2exe main_p0000100_v2 )
 # TARGET_LINK_LIBRARIES( )
