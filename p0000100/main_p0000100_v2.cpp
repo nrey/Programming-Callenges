@@ -4,12 +4,12 @@
 #include <iostream>
 
 unsigned int step( unsigned int n );
-unsigned int convergence( unsigned int n );
+unsigned short convergence( unsigned int n );
 unsigned int cycles( unsigned int begin, unsigned int end );
 bool read( unsigned int &begin, unsigned int &end );
 
 static const int MAX_SIZE = 100000001;
-static unsigned int cycle[ MAX_SIZE ];
+static unsigned short cycle[ MAX_SIZE ];
 
 int main ( void )
 {
@@ -25,7 +25,7 @@ unsigned int step( unsigned int n )
 	return n%2 ? 3*n+1 : n/2;
 }
 
-unsigned int convergence( unsigned int n )
+unsigned short convergence( unsigned int n )
 {
 	if( cycle[n] != 0 )
 		return cycle[n];
@@ -40,7 +40,7 @@ unsigned int cycles( unsigned int input1, unsigned int input2 )
 	begin = std::min(input1,input2);
 	end = std::max(input1,input2);
 	
-	unsigned int best = 0;
+	unsigned short best = 0;
 	while( begin <= end ) 
 	{
 		if( cycle[begin] == 0 )
