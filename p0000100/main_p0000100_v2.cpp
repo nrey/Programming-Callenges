@@ -1,4 +1,4 @@
-// In this version I use a table so that the program runs faster
+// In this version I use a table so that the program runs fasterrr
 
 #include <iostream>
 
