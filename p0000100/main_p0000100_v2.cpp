@@ -1,3 +1,5 @@
+// In this version I use a table so that the program runs faster
+
 #include <iostream>
 
 unsigned int step( unsigned int n );
