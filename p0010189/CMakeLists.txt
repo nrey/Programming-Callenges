@@ -5,14 +5,17 @@ SET( p0010189_HDRS
 
 SET( p0010189_SRCS
 	main_p0010189.cpp
-#	main_p0010189_v2.cpp
+	main_p0010189_v2.cpp
+	main_p0010189_v3.cpp
 )
 
 ADD_LIBRARY( p0010189 main_p0010189 ) #By default will add lib
 ADD_EXECUTABLE( p0010189exe main_p0010189 )
 
-#ADD_LIBRARY( p0010189_v2 main_p0010189_v2 ) #By default will add lib
-#ADD_EXECUTABLE( p0010189_v2exe main_p0010189_v2 )
+ADD_LIBRARY( p0010189_v2 main_p0010189_v2 ) #By default will add lib
+ADD_EXECUTABLE( p0010189_v2exe main_p0010189_v2 )
 
+ADD_LIBRARY( p0010189_v3 main_p0010189_v3 ) #By default will add lib
+ADD_EXECUTABLE( p0010189_v3exe main_p0010189_v3 )
 
 # TARGET_LINK_LIBRARIES( )
