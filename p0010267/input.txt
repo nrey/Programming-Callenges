@@ -1,0 +1,16 @@
+I 5 6
+L 2 3 A
+S one.bmp
+G 2 3 J
+F 3 3 J
+V 2 3 4 W
+H 3 4 2 Z
+S two.bmp
+H 1 5 2 P
+F 3 3 U
+V 2 1 6 W 
+S nic.txt
+F 3 3 D
+S nic.txt
+X
+
