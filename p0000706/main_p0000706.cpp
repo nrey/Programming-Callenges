@@ -1,5 +1,6 @@
 // I think that we have to wait for all the inputs before sending the output
 // make -j2;./p0010189exe < ../input.txt 2>&1|tee ../output.txt
+// If I dont include the std::endl at the end I get and error in the jude !!!!
 #include <iostream>
 #include <vector>
 #include <math.h>
